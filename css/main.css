@@ -4,3 +4,14 @@
   font-weight: 400;
   font-style: normal;
 }
+
+.cormorant-garamond-600 {
+  font-family: "Cormorant Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+    margin: 2px;
+}
