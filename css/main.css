@@ -3,6 +3,7 @@
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  padding: 2px;
 }
 
 .cormorant-garamond-500 {
@@ -10,6 +11,7 @@
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
+  padding: 2px;
 }
 
 body {
