@@ -3,7 +3,7 @@
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  padding: 2px 2px;
+  padding: 1px 1px;
   margin-top: 1px; /* please work. I've been doing this for half an hour. Why does it always have to be the front-end. */
   margin-left: 1px;
 }
@@ -13,7 +13,7 @@
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
-  padding: 2px 2px;
+  padding: 1px 1px;
   margin-top: 1px;
   margin-left: 1px;
 }
@@ -29,19 +29,57 @@
 }
 
 .ws-title {
-    padding: 2px 2px;
-    margin-top: 1px;
-    margin-left: 1px;
+    position: relative;
+    padding: 0 0;
+    margin: 0;
     overflow: hidden;
+    height: 40vh;
+    flex-direction: column;
+    row-gap: 1px;
+    line-height: 0.5;
 }
 
 .ws-title::before {
     content: "";
     position: absolute;
-    background-image: url("images/handshake.png");
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("../images/handshake.png");
     background-size: cover;
-    filter: blur(5px);
+    background-position: center;
+    filter: blur(10px) brightness(0.7);
+    transform: scale(1.2);
     z-index: -1;
+}
+
+.text50 {
+    font-size: 50px;
+}
+
+.text20 {
+    font-size: 20px;
+}
+
+.gray {
+    color: gray;
+}
+
+.lightgray {
+    color: lightgray;
+}
+
+.halftrans {
+    opacity: 0.5;
+}
+
+.tqtrans {
+    opacity: 0.75;
+}
+
+.white {
+    color: white;
 }
 
 body {
