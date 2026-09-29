@@ -18,6 +18,16 @@
   margin-left: 1px;
 }
 
+.fx-center-hz {
+    justify-content: center;
+    display: flex;
+}
+
+.fx-center-vr {
+    align-items: center;
+    display: flex;
+}
+
 body {
     margin: 1px 1px;
 }
