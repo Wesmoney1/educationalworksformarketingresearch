@@ -103,6 +103,7 @@
     border: 1px solid black;
     overflow: hidden;
     max-width: 650px;
+    width: 100vw;
 }
 
 .dropdown > summary {
